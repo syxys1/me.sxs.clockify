@@ -1,0 +1,19 @@
+{
+    "name": "root/clockify",
+    "description": "Simple test for Clockify REST API",
+    "type": "p",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Root\\Clockify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "syxys",
+            "email": "syxys@hotmail.com"
+        }
+    ]
+}
